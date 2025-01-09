@@ -1,0 +1,18 @@
+
+import { StyleSheet, Text, View } from 'react-native';
+import MainNavigador from './browsers/MainNavigator';
+
+export default function App() {
+  return (
+    <MainNavigador/>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
