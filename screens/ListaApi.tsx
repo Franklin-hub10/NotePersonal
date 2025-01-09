@@ -1,6 +1,7 @@
 import { FlatList, StyleSheet, Text, View } from 'react-native';
 import React, { useEffect, useState } from 'react';
-import ContenedorApi from './componente/contenedorApi';
+import ContainerApi from './componente/ContainerApi';
+
 
 
 
@@ -36,7 +37,7 @@ export default function ListaApi() {
             <FlatList
                 data={datos}
                 keyExtractor={(item) => item.id}
-                renderItem={({ item }) => <ContenedorApi informacion={item} />}
+                renderItem={({ item }) => <ContainerApi informacion={item} />}
             />
         </View>
     );

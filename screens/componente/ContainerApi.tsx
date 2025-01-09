@@ -1,7 +1,7 @@
 import { Alert, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 
-export default function ContenedorApi(props: any) {
+export default function ContainerApi(props: any) {
     const { informacion } = props;
 
     const mostrarDetalles = () => {
