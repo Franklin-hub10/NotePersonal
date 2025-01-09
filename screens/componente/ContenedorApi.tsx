@@ -1,5 +1,5 @@
-import { Image, StyleSheet, Text, TouchableOpacity, View, Alert } from 'react-native';
-import React from 'react';
+import { Alert, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+import React from 'react'
 
 export default function ContenedorApi(props: any) {
     const { informacion } = props;

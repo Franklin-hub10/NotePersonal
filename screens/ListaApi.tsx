@@ -3,15 +3,18 @@ import React, { useEffect, useState } from 'react';
 import ContenedorApi from './componente/contenedorApi';
 
 
+
+
+
 type Personaje = {
     id: string;
     name: string;
     description: string;
     image: string;
-  };
+};
 
 export default function ListaApi() {
-     const [datos, setDatos] = useState<Personaje[]>([]);
+    const [datos, setDatos] = useState<Personaje[]>([]);
 
     useEffect(() => {
         async function leer() {
